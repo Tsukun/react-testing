@@ -1,8 +1,12 @@
 import React from 'react'
+import Counter from '../components/Counter/Counter'
 
 const MainPage = () => {
   return (
-    <div data-testid="main-page">MainPage</div>
+    <div>
+      <div data-testid="main-page">MainPage</div>
+      <Counter/>
+    </div>
   )
 }
 
